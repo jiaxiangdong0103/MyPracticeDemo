@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingConstraints">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sy_dp0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/line"
+        style="@style/common_line_view"
+        app:layout_constraintBottom_toTopOf="@+id/ivUI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ivUI"
+        android:layout_width="@dimen/sy_dp0"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/sy_dp16"
+        android:text="UI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/line1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/line1"
+        style="@style/common_vertical_line_view"
+        app:layout_constraintBottom_toBottomOf="@+id/ivUI"
+        app:layout_constraintEnd_toStartOf="@+id/ivNet"
+        app:layout_constraintStart_toEndOf="@+id/ivUI"
+        app:layout_constraintTop_toTopOf="@+id/ivUI" />
+
+    <TextView
+        android:id="@+id/ivNet"
+        android:layout_width="@dimen/sy_dp0"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/sy_dp16"
+        android:text="NET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/line1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

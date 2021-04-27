@@ -1,2 +1,6 @@
+include ':module_studynet'
+include ':module_studyui'
+include ':component_common'
+include ':component_base'
 include ':app'
 rootProject.name = "MyPracticeDemo"
