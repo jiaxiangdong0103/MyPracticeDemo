@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/nav_fist_fragment">
+    <!-- id 就是一个id
+         name 是你的fragment路径
+         label 就是一个标识
+         layout fragment的布局文件
+         action 相当于一个跳转配置
+            id 还是一个id
+            destination 你要跳转的哪个fragment的id
+         argument 在这里也可以传参
+            name 参数的key
+            argType 参数类型
+            defaultValue 默认值
+         -->
+    <fragment
+        android:id="@+id/nav_fist_fragment"
+        android:name="cn.com.jxd.studyui.ktx.navigation.ui.FistFragment"
+        android:label="FistFragment"
+        tools:layout="@layout/fragment_navigation_fist" >
+        <action
+            android:id="@+id/action_nav_fist_fragment_to_nav_second_fragment"
+            app:destination="@id/nav_second_fragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_second_fragment"
+        android:name="cn.com.jxd.studyui.ktx.navigation.ui.SecondFragment"
+        android:label="SecondFragment"
+        tools:layout="@layout/fragment_navigation_second" >
+        <action
+            android:id="@+id/action_nav_second_fragment_to_nav_fist_fragment"
+            app:destination="@id/nav_fist_fragment"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="这是一个默认的name" />
+    </fragment>
+</navigation>

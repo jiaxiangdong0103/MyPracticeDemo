@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ptb_e5e5e5">
+
+    <TextView
+        android:id="@+id/tv_fist"
+        android:layout_width="@dimen/sy_dp0"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/sy_dp10"
+        android:text="第一个fragment"
+        android:textSize="@dimen/sy_text_dp20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
