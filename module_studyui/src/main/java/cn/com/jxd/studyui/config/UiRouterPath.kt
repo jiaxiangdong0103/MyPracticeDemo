@@ -8,4 +8,6 @@ package cn.com.jxd.studyui.config
 object UiRouterPath {
     private const val GROUP = "/uiGroup/"
     const val ACTIVITY_NAVIGATION = "${GROUP}NavigationActivity"
+    const val ACTIVITY_TEST_LIVE_DATA = "${GROUP}TestLiveDataActivity"
+    const val ACTIVITY_TEST_KTX = "${GROUP}TestKtxActivity"
 }

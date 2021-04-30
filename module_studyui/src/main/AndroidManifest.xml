@@ -9,6 +9,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPracticeDemo">
         <activity android:name=".ktx.navigation.ui.NavigationActivity"/>
+        <activity android:name=".ktx.livedata.TestLiveDataActivity"/>
+        <activity android:name=".ktx.TestKtxActivity"/>
     </application>
 
 </manifest>

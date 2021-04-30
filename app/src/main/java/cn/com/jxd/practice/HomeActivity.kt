@@ -1,7 +1,11 @@
 package cn.com.jxd.practice
 
 import androidx.fragment.app.FragmentTransaction
+import androidx.fragment.app.commit
 import androidx.lifecycle.Lifecycle
+import cn.com.jxd.base.extension.commit2
+import cn.com.jxd.base.log.LogUtils
+import cn.com.jxd.base.ui.BaseFragment
 import cn.com.jxd.base.ui.BaseViewBindingActivity
 import cn.com.jxd.practice.config.AppRouterPath
 import cn.com.jxd.practice.databinding.ActivityHomeBinding
@@ -17,40 +21,44 @@ import com.alibaba.android.arouter.facade.annotation.Route
 @Route(path = AppRouterPath.ACTIVITY_HOME)
 class HomeActivity : BaseViewBindingActivity<ActivityHomeBinding>() {
     private var mPosition = 0
-    private lateinit var transaction : FragmentTransaction
-    private val mFragments = mutableListOf(UIFragment.instance(),NetFragment.instance())
+    private val mFragments = mutableListOf<BaseFragment>()
     override fun createViewBinding() = ActivityHomeBinding.inflate(layoutInflater)
 
     override fun initView() {
-        transaction = supportFragmentManager.beginTransaction()
-        transaction.add(R.id.fl_content,mFragments[0])
-        transaction.add(R.id.fl_content,mFragments[1])
-        switchType(transaction,mPosition)
+        switchType(0)
     }
 
     override fun initData() {
         mViewBinding.ivUI.setOnClickListener {
-            if(mPosition!=0){
-                switchType(supportFragmentManager.beginTransaction(),0)
+            if (mPosition != 0) {
+                switchType(0)
             }
         }
         mViewBinding.ivNet.setOnClickListener {
-            if(mPosition!=1){
-                switchType(supportFragmentManager.beginTransaction(),1)
+            if (mPosition != 1) {
+                switchType(1)
             }
         }
     }
-    private fun switchType( transaction: FragmentTransaction,position: Int){
-        for(i in mFragments.indices){
-            if(i==position){
-                transaction.show(mFragments[i])
-                transaction.setMaxLifecycle(mFragments[i], Lifecycle.State.RESUMED)
-            }else{
-                transaction.hide(mFragments[i])
-                transaction.setMaxLifecycle(mFragments[i], Lifecycle.State.STARTED)
+
+    private fun switchType(position: Int) {
+        supportFragmentManager.commit(true) {
+            if(mFragments.isEmpty()){
+                mFragments.add(UIFragment.instance())
+                mFragments.add(NetFragment.instance())
+                add(R.id.fl_content, mFragments[0])
+                add(R.id.fl_content, mFragments[1])
+            }
+            for (i in mFragments.indices) {
+                if (i == position) {
+                    show(mFragments[i])
+                    setMaxLifecycle(mFragments[i], Lifecycle.State.RESUMED)
+                } else {
+                    hide(mFragments[i])
+                    setMaxLifecycle(mFragments[i], Lifecycle.State.STARTED)
+                }
             }
         }
-        transaction.commitAllowingStateLoss()
         mPosition = position
     }
 }

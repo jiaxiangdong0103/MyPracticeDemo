@@ -19,7 +19,7 @@ class UIFragment : BaseViewBindingFragment<FragmentUiBinding>() {
 
     override fun initData() {
         mViewBinding.tvKTX.setOnClickListener {
-            UiRouter.gotoNavigationActivity()
+            UiRouter.gotoTestKTXActivity()
         }
     }
     companion object{

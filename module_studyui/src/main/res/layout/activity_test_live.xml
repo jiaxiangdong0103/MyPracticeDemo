@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sy_dp50"
+        android:layout_marginTop="@dimen/sy_dp10"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="这是原始数据"
+        android:textColor="@color/ptb_ffffff"
+        android:textSize="@dimen/sy_text_dp20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_get_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sy_dp50"
+        android:layout_marginTop="@dimen/sy_dp10"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="点击后 获取信息"
+        android:textColor="@color/ptb_ffffff"
+        android:textSize="@dimen/sy_text_dp20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_user_name" />
+
+    <TextView
+        android:id="@+id/tv_get_user_name2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sy_dp50"
+        android:layout_marginTop="@dimen/sy_dp10"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="使用viewModelScope 获取用户信息"
+        android:textColor="@color/ptb_ffffff"
+        android:textSize="@dimen/sy_text_dp20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_get_user_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

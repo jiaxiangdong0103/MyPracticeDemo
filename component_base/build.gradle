@@ -54,5 +54,6 @@ dependencies {
     api rootProject.ext.compilelibs["navigation-fragment"]
     api rootProject.ext.compilelibs["navigation-ui"]
     api rootProject.ext.compilelibs["arouter"]
+    api rootProject.ext.compilelibs["fragment-ktx"]
     kapt rootProject.ext.compilelibs['arouter-compiler']
 }

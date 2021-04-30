@@ -15,6 +15,7 @@ import cn.com.jxd.studyui.mlifecycle.LifecycleExample
  * @date :2021/4/28 下午2:16
  */
 class FistFragment : BaseViewBindingFragment<FragmentNavigationFistBinding>() {
+
     companion object{
         fun instance() : BaseFragment{
             return FistFragment()
