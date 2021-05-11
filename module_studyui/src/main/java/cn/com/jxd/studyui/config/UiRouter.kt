@@ -19,6 +19,12 @@ object UiRouter {
     fun gotoTestLiveDataActivity() {
         PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_LIVE_DATA)
     }
-
-
+    //协程
+    fun gotoTestCoroutinesActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_COROUTINES)
+    }
+    //新手引导
+    fun gotoTestGuideActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_GUIDE)
+    }
 }

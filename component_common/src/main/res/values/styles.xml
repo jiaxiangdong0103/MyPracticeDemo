@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
     <style name="common_line_view">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/sy_dp0_5</item>
         <item name="android:background">@color/ptb_e7edf0</item>
     </style>
+
     <style name="common_vertical_line_view">
         <item name="android:layout_width">@dimen/sy_dp0_5</item>
         <item name="android:layout_height">@dimen/sy_dp0</item>
         <item name="android:background">@color/ptb_e7edf0</item>
     </style>
+
 </resources>

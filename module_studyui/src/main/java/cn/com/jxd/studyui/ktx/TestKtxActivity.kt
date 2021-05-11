@@ -15,7 +15,6 @@ import com.alibaba.android.arouter.facade.annotation.Route
 @Route(path = UiRouterPath.ACTIVITY_TEST_KTX)
 class TestKtxActivity : BaseViewBindingActivity<ActivityTestKtxBinding>() {
 
-    private lateinit var mViewModel : TestViewModel
 
     override fun createViewBinding() = ActivityTestKtxBinding.inflate(layoutInflater)
 

@@ -16,6 +16,7 @@ ext {
             "viewmodel"             : "androidx.lifecycle:lifecycle-viewmodel:2.2.0",
             "lifecycle"             : "androidx.lifecycle:lifecycle-extensions:2.2.0",
             "lifecycle-ktx"         : "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+            "lifecycle-runtime-ktx" : "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
             "core-ktx"              : "androidx.core:core-ktx:1.3.2",
             "appcompat"             : "androidx.appcompat:appcompat:1.2.0",
             "material"              : "com.google.android.material:material:1.2.1",
@@ -32,5 +33,8 @@ ext {
 
             //lottie
             "lottie"                : "com.airbnb.android:lottie:3.7.0",
+
+            //存储相关 https://github.com/Tencent/MMKV
+            "MMKV"                  : 'com.tencent:mmkv-static:1.2.8',
     ]
 }

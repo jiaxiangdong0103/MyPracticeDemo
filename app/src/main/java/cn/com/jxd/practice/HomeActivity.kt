@@ -1,10 +1,7 @@
 package cn.com.jxd.practice
 
-import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.commit
 import androidx.lifecycle.Lifecycle
-import cn.com.jxd.base.extension.commit2
-import cn.com.jxd.base.log.LogUtils
 import cn.com.jxd.base.ui.BaseFragment
 import cn.com.jxd.base.ui.BaseViewBindingActivity
 import cn.com.jxd.practice.config.AppRouterPath

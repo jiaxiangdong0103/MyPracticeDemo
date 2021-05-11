@@ -7,27 +7,28 @@
     android:padding="@dimen/sy_dp10">
 
     <TextView
-        android:id="@+id/tvKTX"
+        android:id="@+id/tv1"
         android:layout_width="@dimen/sy_dp0"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="@dimen/sy_dp10"
-        android:background="@color/ptb_8c959e"
-        android:text="KTX系列"
+        android:background="@color/ptb_2866f8"
+        android:text="点击展示guide"
+        android:textColor="@color/ptb_ffffff"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
-        android:id="@+id/tvGuide"
-        android:layout_width="@dimen/sy_dp0"
+    <cn.com.jxd.base.view.rounded.RoundedImageView
+        android:id="@+id/iv2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="@dimen/sy_dp10"
-        android:padding="@dimen/sy_dp10"
-        android:background="@color/ptb_8c959e"
-        android:text="新手引导"
-        app:layout_constraintStart_toStartOf="parent"
+        android:padding="@dimen/sy_dp6"
+        android:src="@drawable/guide_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvKTX"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="@dimen/sy_dp4"
+        app:riv_mutate_background="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>

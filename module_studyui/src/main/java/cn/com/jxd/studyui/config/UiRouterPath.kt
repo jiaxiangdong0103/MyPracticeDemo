@@ -10,4 +10,6 @@ object UiRouterPath {
     const val ACTIVITY_NAVIGATION = "${GROUP}NavigationActivity"
     const val ACTIVITY_TEST_LIVE_DATA = "${GROUP}TestLiveDataActivity"
     const val ACTIVITY_TEST_KTX = "${GROUP}TestKtxActivity"
+    const val ACTIVITY_TEST_COROUTINES = "${GROUP}TestCoroutinesActivity"
+    const val ACTIVITY_TEST_GUIDE = "${GROUP}TestGuideActivity"
 }

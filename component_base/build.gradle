@@ -47,6 +47,7 @@ dependencies {
     api rootProject.ext.compilelibs["viewmodel"]
     api rootProject.ext.compilelibs["lifecycle"]
     api rootProject.ext.compilelibs["lifecycle-ktx"]
+    api rootProject.ext.compilelibs["lifecycle-runtime-ktx"]
     api rootProject.ext.compilelibs["core-ktx"]
     api rootProject.ext.compilelibs["appcompat"]
     api rootProject.ext.compilelibs["material"]
@@ -55,5 +56,7 @@ dependencies {
     api rootProject.ext.compilelibs["navigation-ui"]
     api rootProject.ext.compilelibs["arouter"]
     api rootProject.ext.compilelibs["fragment-ktx"]
+    api rootProject.ext.compilelibs['MMKV']
     kapt rootProject.ext.compilelibs['arouter-compiler']
+
 }

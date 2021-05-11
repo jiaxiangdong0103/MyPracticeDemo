@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+    <gradient
+        android:angle="180"
+        android:endColor="#37B1FF"
+        android:startColor="#2866F8"
+        android:type="linear" />
+    <corners android:radius="@dimen/sy_dp4" />  <!--圆角的弧度-->
+</shape>
+

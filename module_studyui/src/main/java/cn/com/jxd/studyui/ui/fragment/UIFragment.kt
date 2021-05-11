@@ -21,6 +21,7 @@ class UIFragment : BaseViewBindingFragment<FragmentUiBinding>() {
         mViewBinding.tvKTX.setOnClickListener {
             UiRouter.gotoTestKTXActivity()
         }
+        UiRouter.gotoTestGuideActivity()
     }
     companion object{
         fun instance(): BaseFragment {

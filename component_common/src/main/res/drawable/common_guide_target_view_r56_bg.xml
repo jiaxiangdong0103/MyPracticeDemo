@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+    <stroke
+        android:width="@dimen/sy_dp1"
+        android:color="@color/ptb_ffffff"
+        android:dashGap="@dimen/sy_dp2"
+        android:dashWidth="@dimen/sy_dp5" />
+    <corners android:radius="@dimen/sy_dp56" />  <!--圆角的弧度-->
+</shape>
+

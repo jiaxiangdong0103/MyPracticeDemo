@@ -1,6 +1,7 @@
 package cn.com.jxd.base
 
 import android.app.Application
+import cn.com.jxd.base.db.CacheStorage
 import com.alibaba.android.arouter.launcher.ARouter
 
 /**
@@ -21,6 +22,7 @@ class BaseApplication : Application() {
         ARouter.openLog()
         ARouter.openDebug()
         ARouter.init(this)
+        CacheStorage.init(this)
     }
 
 }
