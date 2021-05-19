@@ -12,6 +12,8 @@
         <activity android:name=".ktx.livedata.TestLiveDataActivity"/>
         <activity android:name=".ktx.TestKtxActivity"/>
         <activity android:name=".mycoroutines.TestCoroutinesActivity"/>
+        <activity android:name=".mycoroutines.TestCoroutinesExpActivity"/>
+        <activity android:name=".mycoroutines.TestCoroutinesFlowActivity"/>
         <activity android:name=".guide.TestGuideActivity"/>
     </application>
 

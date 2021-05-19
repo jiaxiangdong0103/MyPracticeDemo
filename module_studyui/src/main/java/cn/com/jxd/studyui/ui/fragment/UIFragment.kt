@@ -18,10 +18,22 @@ class UIFragment : BaseViewBindingFragment<FragmentUiBinding>() {
     }
 
     override fun initData() {
-        mViewBinding.tvKTX.setOnClickListener {
-            UiRouter.gotoTestKTXActivity()
+        mViewBinding.apply {
+            tvKTX.setOnClickListener {
+                UiRouter.gotoTestKTXActivity()
+            }
+            tvCoroutines.setOnClickListener {
+                UiRouter.gotoTestCoroutinesActivity()
+            }
+            tvCoroutinesExp.setOnClickListener {
+                UiRouter.gotoTestCoroutinesExpActivity()
+            }
+            tvCoroutinesFlow.setOnClickListener {
+                UiRouter.gotoTestCoroutinesFlowActivity()
+            }
         }
-        UiRouter.gotoTestGuideActivity()
+
+
     }
     companion object{
         fun instance(): BaseFragment {

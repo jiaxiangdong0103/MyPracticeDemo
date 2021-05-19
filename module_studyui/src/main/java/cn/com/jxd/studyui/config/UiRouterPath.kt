@@ -11,5 +11,7 @@ object UiRouterPath {
     const val ACTIVITY_TEST_LIVE_DATA = "${GROUP}TestLiveDataActivity"
     const val ACTIVITY_TEST_KTX = "${GROUP}TestKtxActivity"
     const val ACTIVITY_TEST_COROUTINES = "${GROUP}TestCoroutinesActivity"
+    const val ACTIVITY_TEST_COROUTINES_EXP = "${GROUP}TestCoroutinesExpActivity"
+    const val ACTIVITY_TEST_COROUTINES_FLOW = "${GROUP}TestCoroutinesFlowActivity"
     const val ACTIVITY_TEST_GUIDE = "${GROUP}TestGuideActivity"
 }

@@ -13,5 +13,8 @@ class LogUtils {
         fun j(@Nullable value: Any) {
             Log.e("jia ${Thread.currentThread().name}", "$value")
         }
+        fun d(@Nullable value: Any) {
+            Log.e("jia ${Thread.currentThread().name}", "$value")
+        }
     }
 }

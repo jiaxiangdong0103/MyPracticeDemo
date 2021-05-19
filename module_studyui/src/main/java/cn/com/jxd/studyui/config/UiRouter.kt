@@ -23,6 +23,14 @@ object UiRouter {
     fun gotoTestCoroutinesActivity() {
         PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_COROUTINES)
     }
+    //协程
+    fun gotoTestCoroutinesExpActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_COROUTINES_EXP)
+    }
+    //协程
+    fun gotoTestCoroutinesFlowActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_COROUTINES_FLOW)
+    }
     //新手引导
     fun gotoTestGuideActivity() {
         PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_GUIDE)
