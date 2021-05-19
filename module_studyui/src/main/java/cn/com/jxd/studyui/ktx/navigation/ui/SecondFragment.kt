@@ -3,8 +3,8 @@ package cn.com.jxd.studyui.ktx.navigation.ui
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.findNavController
-import cn.com.jxd.base.ui.BaseFragment
-import cn.com.jxd.base.ui.BaseViewBindingFragment
+import cn.com.jxd.commonutil.ui.BaseFragment
+import cn.com.jxd.commonutil.ui.BaseViewBindingFragment
 import cn.com.jxd.studyui.R
 import cn.com.jxd.studyui.databinding.FragmentNavigationSecondBinding
 import cn.com.jxd.studyui.mlifecycle.LifecycleExample

@@ -1,6 +1,6 @@
 package cn.com.jxd.studyui.guide
 
-import cn.com.jxd.base.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.ui.BaseViewBindingActivity
 import cn.com.jxd.common.guide.CommonGuideDialog
 import cn.com.jxd.common.guide.CommonGuideViewUtils
 import cn.com.jxd.studyui.config.UiRouter

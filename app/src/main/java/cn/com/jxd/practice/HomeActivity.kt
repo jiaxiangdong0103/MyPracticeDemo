@@ -2,8 +2,8 @@ package cn.com.jxd.practice
 
 import androidx.fragment.app.commit
 import androidx.lifecycle.Lifecycle
-import cn.com.jxd.base.ui.BaseFragment
-import cn.com.jxd.base.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.ui.BaseFragment
+import cn.com.jxd.commonutil.ui.BaseViewBindingActivity
 import cn.com.jxd.practice.config.AppRouterPath
 import cn.com.jxd.practice.databinding.ActivityHomeBinding
 import cn.com.jxd.studynet.ui.fragment.NetFragment

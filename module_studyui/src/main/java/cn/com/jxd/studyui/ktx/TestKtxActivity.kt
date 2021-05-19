@@ -1,6 +1,6 @@
 package cn.com.jxd.studyui.ktx
 
-import cn.com.jxd.base.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.ui.BaseViewBindingActivity
 import cn.com.jxd.studyui.config.UiRouter
 import cn.com.jxd.studyui.config.UiRouterPath
 import cn.com.jxd.studyui.databinding.ActivityTestKtxBinding

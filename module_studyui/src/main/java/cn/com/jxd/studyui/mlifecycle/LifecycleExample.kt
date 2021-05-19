@@ -1,6 +1,6 @@
 package cn.com.jxd.studyui.mlifecycle
 
-import cn.com.jxd.base.log.LogUtils
+import cn.com.jxd.commonutil.log.LogUtils
 
 /**
  * @author xiangdong.jia

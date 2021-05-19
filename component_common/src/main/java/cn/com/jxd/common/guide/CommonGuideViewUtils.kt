@@ -3,8 +3,8 @@ package cn.com.jxd.common.guide
 import android.app.Activity
 import android.text.TextUtils
 import android.view.View
-import cn.com.jxd.base.db.DataStorage
-import cn.com.jxd.base.log.LogUtils
+import cn.com.jxd.commonutil.db.DataStorage
+import cn.com.jxd.commonutil.log.LogUtils
 import cn.com.jxd.component_commin.R
 
 /**

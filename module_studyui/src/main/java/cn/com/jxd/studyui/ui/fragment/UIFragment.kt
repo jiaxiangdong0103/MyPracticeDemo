@@ -1,8 +1,8 @@
 package cn.com.jxd.studyui.ui.fragment
 
 import android.view.View
-import cn.com.jxd.base.ui.BaseFragment
-import cn.com.jxd.base.ui.BaseViewBindingFragment
+import cn.com.jxd.commonutil.ui.BaseFragment
+import cn.com.jxd.commonutil.ui.BaseViewBindingFragment
 import cn.com.jxd.studyui.config.UiRouter
 import cn.com.jxd.studyui.databinding.FragmentUiBinding
 

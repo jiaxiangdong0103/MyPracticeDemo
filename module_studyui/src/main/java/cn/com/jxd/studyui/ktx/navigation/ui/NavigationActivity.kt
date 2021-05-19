@@ -5,7 +5,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.FragmentNavigator
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
-import cn.com.jxd.base.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.ui.BaseViewBindingActivity
 import cn.com.jxd.studyui.R
 import cn.com.jxd.studyui.config.UiRouterPath
 import cn.com.jxd.studyui.databinding.ActivityKtxNavigationBinding

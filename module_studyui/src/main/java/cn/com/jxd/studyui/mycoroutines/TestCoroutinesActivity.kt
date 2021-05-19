@@ -1,8 +1,8 @@
 package cn.com.jxd.studyui.mycoroutines
 
 import androidx.lifecycle.lifecycleScope
-import cn.com.jxd.base.log.LogUtils
-import cn.com.jxd.base.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.log.LogUtils
 import cn.com.jxd.studyui.config.UiRouterPath
 import cn.com.jxd.studyui.databinding.ActivityTestCoroutinesBinding
 import com.alibaba.android.arouter.facade.annotation.Route
@@ -10,10 +10,7 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.broadcast
 import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.channels.produce
-import java.lang.NullPointerException
-import java.lang.Runnable
 import kotlin.coroutines.CoroutineContext
-import kotlin.coroutines.EmptyCoroutineContext
 import kotlin.system.measureTimeMillis
 
 

@@ -1,6 +1,7 @@
 package cn.com.jxd.practice.config
 
-import cn.com.jxd.base.router.PageJumpUtil
+import cn.com.jxd.commonutil.router.PageJumpUtil
+
 
 /**
  * @author xiangdong.jia

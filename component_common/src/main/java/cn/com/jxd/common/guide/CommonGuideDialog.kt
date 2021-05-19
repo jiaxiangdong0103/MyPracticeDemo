@@ -14,9 +14,9 @@ import android.os.Build
 import android.view.*
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import cn.com.jxd.base.extension.visible
-import cn.com.jxd.base.utils.SYScreenUtils
-import cn.com.jxd.base.utils.SYViewUtil
+import cn.com.jxd.commonutil.extension.visible
+import cn.com.jxd.commonutil.utils.SYScreenUtils
+import cn.com.jxd.commonutil.utils.SYViewUtil
 import cn.com.jxd.component_commin.R
 import cn.com.jxd.component_commin.databinding.CommonMyGuideViewBinding
 

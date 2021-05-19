@@ -2,8 +2,8 @@ package cn.com.jxd.studyui.ktx.livedata
 
 import androidx.activity.viewModels
 import androidx.lifecycle.ViewModelProvider
-import cn.com.jxd.base.log.LogUtils
-import cn.com.jxd.base.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.log.LogUtils
+import cn.com.jxd.commonutil.ui.BaseViewBindingActivity
 import cn.com.jxd.studyui.config.UiRouterPath
 import cn.com.jxd.studyui.databinding.ActivityTestLiveBinding
 import com.alibaba.android.arouter.facade.annotation.Route

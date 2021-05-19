@@ -4,8 +4,8 @@ import android.os.Build
 import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.lifecycleScope
-import cn.com.jxd.base.log.LogUtils
-import cn.com.jxd.base.ui.BaseViewBindingActivity
+import cn.com.jxd.commonutil.log.LogUtils
+import cn.com.jxd.commonutil.ui.BaseViewBindingActivity
 import cn.com.jxd.studyui.config.UiRouterPath
 import cn.com.jxd.studyui.databinding.ActivityTestCoroutinesBinding
 import cn.com.jxd.studyui.databinding.ActivityTestCoroutinesExpBinding

@@ -1,6 +1,6 @@
 package cn.com.jxd.studyui.config
 
-import cn.com.jxd.base.router.PageJumpUtil
+import cn.com.jxd.commonutil.router.PageJumpUtil
 
 /**
  * @author xiangdong.jia
