@@ -22,6 +22,9 @@ class UIFragment : BaseViewBindingFragment<FragmentUiBinding>() {
             tvKTX.setOnClickListener {
                 UiRouter.gotoTestKTXActivity()
             }
+            tvGuide.setOnClickListener {
+                UiRouter.gotoTestCoroutinesActivity()
+            }
             tvCoroutines.setOnClickListener {
                 UiRouter.gotoTestCoroutinesActivity()
             }
@@ -30,6 +33,9 @@ class UIFragment : BaseViewBindingFragment<FragmentUiBinding>() {
             }
             tvCoroutinesFlow.setOnClickListener {
                 UiRouter.gotoTestCoroutinesFlowActivity()
+            }
+            tvWorker.setOnClickListener {
+                UiRouter.gotoWorkerActivity()
             }
         }
 

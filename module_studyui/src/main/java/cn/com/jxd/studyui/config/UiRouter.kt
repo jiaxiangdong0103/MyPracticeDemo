@@ -35,4 +35,21 @@ object UiRouter {
     fun gotoTestGuideActivity() {
         PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_GUIDE)
     }
+
+    //Worker
+    fun gotoWorkerActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_WORKER)
+    }
+    //Worker
+    fun gotoWorkerBasisActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_WORKER)
+    }
+    //Worker 高级操作
+    fun gotoWorkerExpertActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_WORKER_EXPERT)
+    }
+    //Worker 初级操作
+    fun gotoWorkerPrimaryActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_WORKER_PRIMARY)
+    }
 }

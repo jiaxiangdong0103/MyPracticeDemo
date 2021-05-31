@@ -15,6 +15,11 @@
         <activity android:name=".mycoroutines.TestCoroutinesExpActivity"/>
         <activity android:name=".mycoroutines.TestCoroutinesFlowActivity"/>
         <activity android:name=".guide.TestGuideActivity"/>
+        <activity android:name=".work.ui.TestWorkerActivity"/>
+        <activity android:name=".work.ui.WorkerActivity"/>
+        <activity android:name=".work.ui.WorkerExpertActivity"/>
+        <activity android:name=".work.ui.WorkerPrimaryActivity"/>
+
     </application>
 
 </manifest>

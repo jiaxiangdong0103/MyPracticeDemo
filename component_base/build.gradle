@@ -43,6 +43,8 @@ android {
 
 dependencies {
     api rootProject.ext.compilelibs['MyCommonUtil']
+    api rootProject.ext.compilelibs['work-runtime']
+    api rootProject.ext.compilelibs['androidx.concurrent']
     kapt rootProject.ext.compilelibs['arouter-compiler']
 
 

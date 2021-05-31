@@ -1,7 +1,7 @@
 package cn.com.jxd.base
 
 import android.app.Application
-import cn.com.jxd.base.db.CacheStorage
+import cn.com.jxd.commonutil.db.CacheStorage
 import com.alibaba.android.arouter.launcher.ARouter
 
 /**
