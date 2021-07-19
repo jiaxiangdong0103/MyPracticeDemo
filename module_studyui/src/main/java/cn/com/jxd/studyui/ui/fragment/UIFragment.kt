@@ -18,6 +18,7 @@ class UIFragment : BaseViewBindingFragment<FragmentUiBinding>() {
     }
 
     override fun initData() {
+        UiRouter.gotoTestImageActivity()
         mViewBinding.apply {
             tvKTX.setOnClickListener {
                 UiRouter.gotoTestKTXActivity()
@@ -36,6 +37,9 @@ class UIFragment : BaseViewBindingFragment<FragmentUiBinding>() {
             }
             tvWorker.setOnClickListener {
                 UiRouter.gotoWorkerActivity()
+            }
+            tvFile.setOnClickListener {
+                UiRouter.gotoTestStorageActivity()
             }
         }
 

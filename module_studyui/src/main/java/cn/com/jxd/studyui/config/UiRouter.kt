@@ -52,4 +52,12 @@ object UiRouter {
     fun gotoWorkerPrimaryActivity() {
         PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_WORKER_PRIMARY)
     }
+    //存储相关
+    fun gotoTestStorageActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_STORAGE)
+    }
+    //
+    fun gotoTestImageActivity() {
+        PageJumpUtil.gotoActivity(UiRouterPath.ACTIVITY_TEST_IMAGE)
+    }
 }

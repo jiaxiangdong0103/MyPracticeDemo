@@ -18,4 +18,6 @@ object UiRouterPath {
     const val ACTIVITY_TEST_WORKER = "${GROUP}TestWorkerActivity"
     const val ACTIVITY_TEST_WORKER_EXPERT = "${GROUP}WorkerExpertActivity"
     const val ACTIVITY_TEST_WORKER_PRIMARY = "${GROUP}WorkerPrimaryActivity"
+    const val ACTIVITY_TEST_STORAGE = "${GROUP}TestStorageActivity"
+    const val ACTIVITY_TEST_IMAGE = "${GROUP}TestImageActivity"
 }

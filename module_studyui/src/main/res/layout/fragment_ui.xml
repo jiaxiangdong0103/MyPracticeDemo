@@ -81,4 +81,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvCoroutinesFlow" />
+    <TextView
+        android:id="@+id/tvFile"
+        android:layout_width="@dimen/sy_dp0"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sy_dp10"
+        android:background="@color/ptb_8c959e"
+        android:gravity="center"
+        android:padding="@dimen/sy_dp10"
+        android:text="存储文件"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWorker" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

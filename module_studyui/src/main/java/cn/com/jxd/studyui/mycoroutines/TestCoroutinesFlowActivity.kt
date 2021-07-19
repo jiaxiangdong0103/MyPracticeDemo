@@ -12,18 +12,10 @@ import cn.com.jxd.studyui.databinding.ActivityTestCoroutinesExpBinding
 import cn.com.jxd.studyui.databinding.ActivityTestCoroutinesFlowBinding
 import com.alibaba.android.arouter.facade.annotation.Route
 import kotlinx.coroutines.*
-import kotlinx.coroutines.channels.broadcast
-import kotlinx.coroutines.channels.consumeEach
-import kotlinx.coroutines.channels.produce
 import kotlinx.coroutines.flow.*
 import java.lang.NullPointerException
 import java.lang.Runnable
 import java.lang.StringBuilder
-import java.util.concurrent.Flow
-import kotlin.coroutines.CoroutineContext
-import kotlin.coroutines.EmptyCoroutineContext
-import kotlin.coroutines.coroutineContext
-import kotlin.system.measureTimeMillis
 
 
 /**
